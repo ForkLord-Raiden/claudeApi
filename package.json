@@ -14,7 +14,7 @@
     "streaming": "tsx 07-streaming.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Raiden",
   "license": "ISC",
   "dependencies": {
     "@anthropic-ai/sdk": "^1.3.0",
