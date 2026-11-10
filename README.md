@@ -32,3 +32,8 @@ export ANTHROPIC_API_KEY="your-key-here"
 | `npm run caching` | `05-caching.ts` | Prompt caching, compared across two calls |
 | `npm run structured` | `06-structured-response.ts` | Structured output through a tool schema |
 | `npm run streaming` | `07-streaming.ts` | Streaming a response |
+| `npm run context-editing` | `08-context-editing.ts` | Server-side clearing of old tool results (beta) |
+| `npm run permissions -- <scenario>` | `09-permissions.ts` | Agent SDK permission ladder: `doors`, `hook`, `deny`, `ask`, `allow`, `dontask` |
+| `npm run telemetry -- <scenario>` | `telemetry/run.ts` | Claude Code OpenTelemetry into a fake collector: `basic`, `off`, `noprotocol`, `split`, `privacy`, `tags`, `repo` (see [telemetry/README.md](telemetry/README.md)) |
+
+Theory notes: [PERMISSIONS.md](PERMISSIONS.md) covers Agent SDK permissions (doors, the six checkpoints, worked permutations).

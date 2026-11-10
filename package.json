@@ -1,7 +1,7 @@
 {
   "name": "claudeapi",
   "version": "1.0.0",
-  "type":"module",
+  "type": "module",
   "description": "Hands-on Claude API practice in TypeScript: first call, tool use, agent loop, caching, structured output, streaming",
   "scripts": {
     "first-call": "tsx 01-calling-api.ts",
@@ -11,12 +11,16 @@
     "agent-loop": "tsx 04-agentLoop.ts",
     "caching": "tsx 05-caching.ts",
     "structured": "tsx 06-structured-response.ts",
-    "streaming": "tsx 07-streaming.ts"
+    "streaming": "tsx 07-streaming.ts",
+    "context-editing": "tsx 08-context-editing.ts",
+    "telemetry": "tsx telemetry/run.ts",
+    "collector": "tsx telemetry/collector.ts"
   },
   "keywords": [],
   "author": "Raiden",
   "license": "ISC",
   "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.3.316",
     "@anthropic-ai/sdk": "^1.3.0",
     "tsx": "^4.23.15"
   },
